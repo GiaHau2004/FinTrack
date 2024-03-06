@@ -1,0 +1,32 @@
+nav {
+    background-color: #f0f0f0; /* Màu nền của thanh điều hướng */
+    padding: 10px 20px; /* Đệm xung quanh nội dung thanh điều hướng */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none; /* Loại bỏ dấu chấm danh sách */
+    padding: 0; /* Loại bỏ đệm mặc định */
+    margin: 0; /* Loại bỏ lề mặc định */
+    display: flex; /* Hiển thị các mục liên kết ngang */
+    justify-content: left; /* Căn các liên kết về phía bên trái */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Khoảng cách giữa các liên kết */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #333; /* Màu của văn bản liên kết */
+    font-weight: bold; /* Độ đậm của văn bản */
+  }
+  
+  nav ul li a:hover {
+    color: #007bff; /* Màu khi di chuột qua */
+    border-bottom: 2px solid #007bff; /* Dòng kẻ dưới khi di chuột qua */
+  }
+  

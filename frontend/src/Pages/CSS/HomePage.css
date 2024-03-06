@@ -1,0 +1,351 @@
+/* CSS cho .content-1 và các thành phần bên trong */
+.content-1 {
+  background-color: #f0f0f0;
+  /* Màu nền cho khối nội dung */
+  padding: 40px;
+  /* Đệm xung quanh nội dung */
+  text-align: center;
+  /* Căn giữa nội dung */
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.content-1 h1 {
+  color: #333;
+  /* Màu của tiêu đề */
+  margin: 20px 0;
+  /* Khoảng cách giữa các tiêu đề và các thành phần khác */
+}
+
+.content-1 button {
+  background-color: #007bff;
+  /* Màu nền của nút */
+  color: white;
+  /* Màu chữ trong nút */
+  border: none;
+  /* Loại bỏ viền */
+  padding: 10px 20px;
+  /* Đệm xung quanh nội dung trong nút */
+  font-size: 16px;
+  /* Kích thước font chữ của nút */
+  cursor: pointer;
+  /* Biểu tượng con trỏ khi di chuyển chuột qua nút */
+  border-radius: 5px;
+  /* Bo tròn góc của nút */
+  transition: background-color 0.3s;
+  /* Hiệu ứng chuyển màu nền khi hover */
+}
+
+.content-1 button:hover {
+  background-color: #0056b3;
+  /* Màu nền của nút khi hover */
+}
+
+.content-2 {
+  display: flex;
+  /* Sử dụng flexbox để bố trí nội dung */
+  flex-direction: column;
+  /* Sắp xếp các items theo hàng dọc */
+  align-items: center;
+  /* Căn giữa các items theo chiều ngang */
+  padding: 20px;
+  /* Đệm xung quanh nội dung tổng */
+  margin: 50px 0px;
+}
+
+.content-2 .content {
+  display: flex;
+  gap: 50px;
+}
+
+.content-2 .item {
+  display: flex;
+  /* Sử dụng flexbox cho mỗi item */
+  flex-direction: column;
+  /* Sắp xếp nội dung của item theo hàng dọc */
+  align-items: center;
+  /* Căn giữa nội dung theo chiều ngang */
+  text-align: center;
+  /* Căn giữa văn bản */
+  margin-bottom: 20px;
+  /* Khoảng cách giữa các items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm box-shadow */
+  /* Thêm box-shadow */
+  padding: 20px;
+  /* Đệm xung quanh nội dung trong mỗi item */
+  border-radius: 10px;
+  /* Bo góc của khung */
+}
+
+.content-2 .item img {
+  width: 60px;
+  /* Đặt chiều rộng cố định cho hình ảnh */
+  height: auto;
+  /* Chiều cao tự động điều chỉnh theo tỷ lệ của hình ảnh */
+  margin-bottom: 10px;
+  /* Khoảng cách giữa hình ảnh và văn bản phía dưới */
+}
+
+.content-2 .item p {
+  margin: 0;
+  /* Loại bỏ lề mặc định của p */
+  font-size: 16px;
+  /* Đặt kích thước font */
+}
+
+.content-3 {
+  display: flex;
+  /* Áp dụng Flexbox */
+  align-items: center;
+  /* Căn giữa các items theo chiều dọc */
+  justify-content: space-between;
+  /* Phân bố không gian giữa các phần tử con */
+  padding: 20px;
+  /* Đệm xung quanh nội dung */
+  gap: 20px;
+  /* Khoảng cách giữa các phần tử con */
+  margin: 50px 0px;
+  gap: 50px;
+}
+
+.content-3 .content-left,
+.content-3 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+
+}
+
+.content-3 .content-left img {
+  width: 100%;
+  /* Chiều rộng hình ảnh phù hợp với container của nó */
+  max-width: 600px;
+  /* Giới hạn chiều rộng tối đa của hình ảnh */
+  height: auto;
+  /* Chiều cao tự động điều chỉnh theo tỷ lệ hình ảnh */
+}
+
+.content-3 .content-right h3 {
+  margin-top: 0;
+  /* Loại bỏ lề trên mặc định */
+  color: #333;
+  /* Màu sắc của tiêu đề */
+}
+
+.content-3 .content-right p {
+  /* Điều chỉnh kích thước, dòng và màu sắc của văn bản */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.content-3 .content-left,
+.content-3 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm box-shadow */
+  /* Thêm box-shadow */
+  border-radius: 8px;
+  /* Tùy chọn: Bo tròn các góc */
+  padding: 10px;
+}
+
+.content-4 {
+  display: flex;
+  /* Áp dụng Flexbox */
+  align-items: center;
+  /* Căn giữa các items theo chiều dọc */
+  justify-content: space-between;
+  /* Phân bố không gian giữa các phần tử con */
+  padding: 20px;
+  /* Đệm xung quanh nội dung */
+  gap: 20px;
+  /* Khoảng cách giữa các phần tử con */
+  margin: 50px 0px;
+  gap: 50px;
+}
+
+.content-4 .content-left,
+.content-4 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+
+}
+
+.content-4 .content-left img {
+  width: 100%;
+  /* Chiều rộng hình ảnh phù hợp với container của nó */
+  max-width: 600px;
+  /* Giới hạn chiều rộng tối đa của hình ảnh */
+  height: auto;
+  /* Chiều cao tự động điều chỉnh theo tỷ lệ hình ảnh */
+}
+
+.content-4 .content-right h3 {
+  margin-top: 0;
+  /* Loại bỏ lề trên mặc định */
+  color: #333;
+  /* Màu sắc của tiêu đề */
+}
+
+.content-4 .content-right p {
+  /* Điều chỉnh kích thước, dòng và màu sắc của văn bản */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.content-4 .content-left,
+.content-4 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm box-shadow */
+  /* Thêm box-shadow */
+  border-radius: 8px;
+  /* Tùy chọn: Bo tròn các góc */
+  padding: 10px;
+}
+
+.content-5 {
+  display: flex;
+  /* Áp dụng Flexbox */
+  align-items: center;
+  /* Căn giữa các items theo chiều dọc */
+  justify-content: space-between;
+  /* Phân bố không gian giữa các phần tử con */
+  padding: 20px;
+  /* Đệm xung quanh nội dung */
+  gap: 20px;
+  /* Khoảng cách giữa các phần tử con */
+  margin: 50px 0px;
+  gap: 50px;
+}
+
+.content-5 .content-left,
+.content-5 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+
+}
+
+.content-5 .content-left img {
+  width: 100%;
+  /* Chiều rộng hình ảnh phù hợp với container của nó */
+  max-width: 600px;
+  /* Giới hạn chiều rộng tối đa của hình ảnh */
+  height: auto;
+  /* Chiều cao tự động điều chỉnh theo tỷ lệ hình ảnh */
+}
+
+.content-5 .content-right h3 {
+  margin-top: 0;
+  /* Loại bỏ lề trên mặc định */
+  color: #333;
+  /* Màu sắc của tiêu đề */
+}
+
+.content-5 .content-right p {
+  /* Điều chỉnh kích thước, dòng và màu sắc của văn bản */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.content-5 .content-left,
+.content-5 .content-right {
+  flex: 1;
+  /* Mỗi phần tử con chiếm không gian bằng nhau */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm box-shadow */
+  /* Thêm box-shadow */
+  border-radius: 8px;
+  /* Tùy chọn: Bo tròn các góc */
+  padding: 10px;
+}
+
+.content-6 h1 {
+  text-align: center; /* Căn giữa tiêu đề */
+  margin-bottom: 30px; /* Tạo khoảng cách dưới tiêu đề */
+}
+
+.content-6 .content {
+  display: flex; /* Áp dụng Flexbox */
+  flex-wrap: wrap; /* Cho phép các items chảy sang hàng mới */
+  justify-content: center; /* Căn giữa các items */
+  gap: 50px; /* Tạo khoảng cách giữa các items */
+  margin: 50px 0;
+}
+
+.content-6 .item {
+  display: flex; /* Sắp xếp hình ảnh và nội dung cạnh nhau */
+  align-items: center; /* Căn giữa các items theo chiều dọc */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+  border-radius: 8px; /* Bo tròn góc */
+  overflow: hidden; /* Ngăn nội dung vượt ra ngoài viền bo tròn */
+  width: calc(50% - 10px); /* Điều chỉnh chiều rộng cho phù hợp với flex-wrap */
+  max-width: 500px; /* Giới hạn chiều rộng tối đa của item */
+}
+
+.content-6 .item img {
+  width: 120px; /* Đặt chiều rộng cố định cho hình ảnh */
+  height: auto; /* Đảm bảo hình ảnh không bị méo */
+  margin-right: 20px; /* Tạo khoảng cách giữa hình ảnh và nội dung */
+}
+
+.content-6 .item-content {
+  flex: 1; /* Cho phép nội dung chiếm phần còn lại của item */
+}
+
+.content-6 .item-content h3 {
+  margin-top: 0; /* Loại bỏ khoảng cách trên cùng của tiêu đề */
+}
+
+.content-6 .item-content p {
+  margin: 0; /* Loại bỏ khoảng cách mặc định */
+  font-size: 16px; /* Điều chỉnh kích thước font */
+  line-height: 1.5; /* Điều chỉnh khoảng cách giữa các dòng */
+}
+
+.content-7 {
+  text-align: center; /* Căn giữa tiêu đề và đánh giá */
+  padding: 20px;
+}
+
+.content-7 h1 {
+  margin-bottom: 20px; /* Tạo khoảng cách dưới tiêu đề */
+}
+
+.content-7 > p {
+  display: inline-flex; /* Hiển thị sao đánh giá và số bên cạnh nhau */
+  align-items: center; /* Căn giữa các thành phần theo chiều dọc */
+  font-size: 24px; /* Tăng kích thước font của đánh giá */
+  margin-bottom: 20px; /* Khoảng cách giữa đánh giá và ý kiến */
+}
+
+.content-7 > p img {
+  margin-right: 10px; /* Khoảng cách giữa hình ảnh sao và số đánh giá */
+}
+
+.content-7 .content {
+  display: flex; /* Sử dụng Flexbox để bố trí các item */
+  flex-direction: column; /* Các item sắp xếp theo chiều dọc */
+  align-items: center; /* Căn giữa các item theo chiều ngang */
+}
+
+.content-7 .item {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng đổ cho mỗi ý kiến */
+  padding: 20px; /* Đệm xung quanh nội dung của ý kiến */
+  margin-bottom: 20px; /* Khoảng cách giữa các ý kiến */
+  border-radius: 8px; /* Bo góc cho ý kiến */
+  width: 80%; /* Chiều rộng của mỗi ý kiến */
+  max-width: 600px; /* Giới hạn chiều rộng tối đa */
+}
+
+.content-7 .item p {
+  text-align: left; /* Căn trái nội dung của ý kiến */
+  margin-bottom: 15px; /* Khoảng cách giữa nội dung ý kiến và tên người dùng */
+}
+
+.content-7 .item h3 {
+  text-align: right; /* Căn phải tên người dùng */
+  margin-top: 10px; /* Khoảng cách trên của tên người dùng */
+  font-style: italic; /* Nghiêng cho tên người dùng */
+}
